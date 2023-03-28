@@ -33,3 +33,15 @@ services:       # what type of service it will run
 
 
 # docker-compose up
+
+
+
+ docker ps -a --filter "name=jenkins_jenkins_1"
+
+ docker inspect jenkins_jenkins_1
+ 
+ docker stats jenkins_jenkins_1 
+ 
+ docker attach jenkins_jenkins_1
+ 
+ docker exec -it jenkins_jenkins_1 bash
